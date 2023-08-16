@@ -1,6 +1,26 @@
 [
-	{
-		"ParameterKey": "Add you parameters here",
-		"ParameterValue": "Add you parameters here"
-	}
+    {
+        "ParameterKey": "ProjectName",
+        "ParameterValue": "WebAppCloudFormation"
+    },
+    {
+        "ParameterKey": "VpcAddress",
+        "ParameterValue": "10.2.0.0/16"
+    },
+    {
+        "ParameterKey": "PublicSubnet1Address",
+        "ParameterValue": "10.2.0.0/24"
+    },
+    {
+        "ParameterKey": "PublicSubnet2Address",
+        "ParameterValue": "10.2.1.0/24"
+    },
+    {
+        "ParameterKey": "PrivateSubnet1Address",
+        "ParameterValue": "10.2.2.0/24"
+    },
+    {
+        "ParameterKey": "PrivateSubnet2Address",
+        "ParameterValue": "10.2.3.0/24"
+    }
 ]

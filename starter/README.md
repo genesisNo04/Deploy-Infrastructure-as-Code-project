@@ -1,11 +1,17 @@
 # CD12352 - Infrastructure as Code Project Solution
-# [YOUR NAME HERE]
+# [Nam Nguyen]
 
 ## Spin up instructions
-TODO
+./create.sh [stackName1] network.yml network-parameters.json
+./create.sh [stackName2] udagram.yml udagram-parameters.json
+
+## Update instructions
+./update.sh [stackName1] network.yml network-parameters.json
+./update.sh [stackName2] udagram.yml udagram-parameters.json
 
 ## Tear down instructions
-TODO
+./delete.sh [stackName1] network.yml
+./delete.sh [stackName2] udagram.yml
 
 ## Other considerations
-TODO (optional)
+Load Balancer DNS: http://udagr-webap-1okdm9kbxizo8-427389447.us-east-1.elb.amazonaws.com/
