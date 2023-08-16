@@ -14,4 +14,4 @@
 ./delete.sh [stackName2] udagram.yml
 
 ## Other considerations
-Load Balancer DNS: http://udagr-webap-1okdm9kbxizo8-427389447.us-east-1.elb.amazonaws.com/
+Load Balancer DNS: 	http://udagr-WebAp-8I8BQX7O22NB-773021301.us-east-1.elb.amazonaws.com
